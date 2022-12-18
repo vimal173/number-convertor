@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700&display=swap');
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    
+}
+body{
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: 'Unbounded', cursive;
+    font-weight: 400;
+    
+    
+}
+main{
+    min-width: 27.5rem;  
+}
+.wrapper
+{
+    background-image: linear-gradient(180deg,hsla(29, 46%, 72%, 0.945),hsla(34, 50%, 55%, 0.945));
+    min-height: calc(100vh - calc(1.4em + 77.18px));
+}
+.container{  
+    width: 90%;
+    max-width: 45rem; 
+     
+    margin: auto;
+}
+section{
+    padding: 1em 1.5em;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 90%;
+}
+.flex>*{
+    padding-top: 1rem;
+}
+.head{
+    background-image: linear-gradient(hsl(0, 18%, 28%),rgb(95, 84, 84));
+    padding: .7em 0em;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(214, 205, 205);
+}
+#type1,#type2,#v1,#v2{
+   border: none;
+   border-radius: .3rem;
+   font-size: 1.5rem;
+   padding: .5rem;
+   text-align: center;
+   width:100%;
+   margin: auto;
+}
+#type1,#type2,:focus{
+    outline: none;
+}
+#btn{
+    padding: .5em .3em;
+    width:10rem;
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+    color:aliceblue;
+    text-align: center;
+    margin:2.5rem 2rem 0 auto;
+}
+.lbl{
+    text-transform: uppercase;
+}
+.error{
+    
+    width:80%;
+    margin-left:4rem ;
+    padding: 1em 0;
+}
+

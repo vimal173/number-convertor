@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      href="images/convert_ipzq6hbw92m0.ico"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>decimal/binary/hex/octal converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="head">
+        <h1 class="title">converter</h1>
+      </div>
+      <div class="wrapper">
+        <div class="container">
+          <section id="choice">
+            <div class="flex">
+              <label class="lbl" for="from">from</label>
+              <select name="from" id="type1">
+                <option value="binary">binary</option>
+                <option selected value="decimal">decimal</option>
+                <option value="octal">octal</option>
+                <option value="hexadecimal">hexadecimal</option>
+              </select>
+              <label class="lbl" for="to">to</label>
+              <select name="to" id="type2">
+                <option selected value="binary">binary(32-bit)</option>
+                <option value="decimal">decimal</option>
+                <option value="octal">octal</option>
+                <option value="hexadecimal">hexadecimal</option>
+              </select>
+              <div id="error_txt_type"></div>
+            </div>
+          </section>
+          <section id="conversion">
+            <div class="flex">
+              <label class="lbl" for="v1" id="v1l"></label>
+              <input type="text" name="v1" id="v1">
+              <div id="value_error"></div>
+              <div id="btn">convert</div>
+              <label class="lbl" for="v2" id="v2l"></label>
+              <input type="text" name="v2" id="v2">
+            </div>
+          </section>
+          <section id="hex">
+          </section>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
